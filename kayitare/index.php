@@ -1,0 +1,10 @@
+<?php
+$a=123;
+var_dump($a);
+$b=-123;
+var_dump($b);
+echo"<br>";
+$c='0*a';
+var_dump($c);
+echo"br"
+?>
