@@ -1,0 +1,13 @@
+const express=require('express');
+const app=express();
+const port=3000;
+app.get('/',(req,res)=>{
+    res.status(200).json('thisis my first backend application');
+});
+app.listen(port,()=>{
+    console.log(` server is on port localhost:${port}`);
+});
+app.post('/',(req,res)=>{
+    res.status(200).json('post here what you want');
+});
+
